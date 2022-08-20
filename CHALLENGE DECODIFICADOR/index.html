@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Codificador</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <img class="Logo" src="assets/img/png/quebrado.png" alt="Cadeado Quebrado" />
+      </nav>
+    </header>
+
+    <main>
+      <div class="box">
+        <section class="container-imput">
+          <div class="form-container">
+            <form class="form-input-text">
+              <label for=""></label>
+              <textarea
+                class="input-text"
+                cols="auto"
+                rows="auto"
+                placeholder="Digite seu texto:"
+              ></textarea>
+            </form>
+          </div>
+          <div class="encoder-button-container">
+            <button class="encrypt">Criptografar</button>
+            <button class="descrypt">Descriptografar</button>
+          </div>
+        </section>
+        <section class="container-result">
+          <img
+            src="/assets/img/png/codificador.png"
+            alt="Pessoa descriptografando textos no celular."
+            class="result-img"
+          />
+
+          <h2 class="result-title">Nenhuma mensagem encontrada</h2>
+          <p class="result-paragraph">
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+
+          <form class="form-output-result">
+            <label id="output"></label>
+            <textarea
+              id="output"
+              name="output"
+              rows="auto"
+              cols="auto"
+            ></textarea>
+          </form>
+          <button class="copy">Copiar</button>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer-copyright">
+      feito por ....
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

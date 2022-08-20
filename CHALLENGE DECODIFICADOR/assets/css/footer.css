@@ -1,0 +1,6 @@
+.footer-copyright {
+  width: 100vw;
+  height: 10vh;
+  z-index: -1;
+  font-size:2rem;
+}

@@ -1,0 +1,13 @@
+:root {
+  --details-1: #F9A826;
+  --details-2: #C9C9C9;
+  --details-3: #FFFFFF;
+  --details-4: #272525;
+
+
+  --ff-inter: 'Inter', sans-serif;
+  --fs-1: 1.6rem;
+  --fs-2: 2rem;
+  --fs-3: 3rem;
+  --fw-400: 400;
+}
